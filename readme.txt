@@ -15,12 +15,20 @@ INSTALL
 CONFIGURATION
 
 Please have a look at configuration options in Developer -> Modules Config tab.
-- Excluded zones                   Define zones that should be hidden from selection. You can append "*" - asterisk to the end of zone
-                                   name to hide all pages of the zone, but not the zone itself.
-- Controlled content blocks        Define block of your template that should be hidden on restrictions in affect. By default
-                                   it's 'main'. Login form or restriction message will be shown on the first block in the list)
-- Show login for anonymous users   Define whether to show login form for anonymous user on restricted page (prints default user login form)
-- Show message for logged in users Define message for logged in user on restricted page (language aware)
+
+- Excluded zones -
+Define zones that should be hidden from selection. You can append "*" - asterisk to the end of zone name
+ to hide all pages of the zone, but not the zone itself.
+
+- Controlled content blocks -
+Define block of your template that should be hidden on restrictions in affect. By default it's 'main'.
+Login form or restriction message will be shown on the first block in the list)
+
+- Show login for anonymous users -
+Define whether to show login form for anonymous user on restricted page (prints default user login form)
+
+- Show message for logged in users -
+Define message for logged in user on restricted page (language aware)
 
 
 USAGE
